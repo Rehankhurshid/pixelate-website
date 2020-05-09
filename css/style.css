@@ -240,7 +240,7 @@ html {
 }
 
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Helvetica 65 Medium Regular', sans-serif;
   color: #000000;
 }
 
@@ -3293,13 +3293,20 @@ a:hover .zooming img {
   top: 0;
   bottom: 0;
   z-index: -1;
-  background-position: 70% 50%;
+  background-position: 50% 50%;
+  transform: scale(.6);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  -webkit-transform: scale(.6);
+  -moz-transform: scale(.6);
+  -ms-transform: scale(.6);
+  -o-transform: scale(.6);
 }
+
 
 .slide-bg {
   overflow: hidden;
+
 }
 
 .home-horizontal .slide1 .slide-bg > .inside {
